@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#branchnavcont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 50px 10px 50px;
+}
+#wdfirst{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/public/images/WEB.jpg);
+    background-size: cover;
+    background-position: center;
+    content-visibility: auto;
+}
+#wdcont{
+    padding: 40px;
+    
+}
+#wdconttext{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#wdconttext h1{
+    font-weight: 900;
+    font-size: 70px;
+    background: linear-gradient(to right, #88c7f3 40%, #8e76d6 60% );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+#wdconttext p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+#wdsecond{
+    height: 100%;
+    background-image: url(/public/images/bck4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    content-visibility: auto;
+}
+#wdsecond p{
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+#wdsecond h1{
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right ,#8e76d6 40% , #88c7f3 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#jcards{
+    display: grid;
+    justify-content: space-between;
+    margin: 20px 20px 0px 20px;
+    grid-template-columns: 280px 280px 280px 280px;
+}
+#anchor{
+    display: flex;
+}
+
+
+
+
+
+
+#prjcards{
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #080239;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+}
+#prjcards p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+    text-align: left;
+}
+#wdimage{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#greena{
+    color: white;
+    
+}
+#reda{
+    color: white;
+}
+
+
+
+#ski{
+    text-align: center;
+    padding-top: 40px;
+}
+#skillimages{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px 150px;
+}
+#skiname{
+    padding-bottom: 50px;
+}
+#imgpara{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+#cardbtnred{
+    padding: 3px 8px 3px 8px;
+    background-color: rgb(245, 52, 52);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+#cardbtngreen{
+    padding: 3px 8px 3px 8px;
+    margin-right: 20px;
+    background-color: green;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+#cardbtngreen:hover{
+    border: 1px solid green;
+    background-color: transparent;
+}
+#cardbtnred:hover{
+    border: 1px solid rgb(245, 52, 52);
+    background-color: transparent;
+}
+
+
+
+
+
+@media (max-width : 900px) {
+    #jcards{
+        display: grid;
+        margin: 0 auto;
+        justify-content: center;
+        place-items: center;
+        grid-template-columns: 250px;
+    }
+    #skillimages{
+        grid-template-columns: 150px 150px;
+    }
+    #wdsecond{
+        height: 100%;
+    }
+    #prjcards{
+        margin-bottom: 20px;
+    }
+    #branchnavcont{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    #wdconttext h1{
+        font-weight: 900;
+        font-size: 50px;
+        
+    }
+
+}
+
+

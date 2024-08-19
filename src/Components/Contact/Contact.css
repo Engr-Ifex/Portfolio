@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#contacthero{
+    background-image: url('/public/images/bck4.jpg');
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    z-index: 0;
+    content-visibility: auto;
+}
+#contactcont{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+#contactcard{
+    background: #1d0049;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border: 1px solid #271c7c;
+    text-align: left;
+}
+#contacttext p{
+    font-weight: 400;
+    font-size: 15px;
+}
+#contacttext h1{
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right ,#8e76d6 40% , #88c7f3 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 20px;
+}
+#input1{
+    width: 300px;
+    height: 40px;
+    background-color: #3b1771;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+#input1::placeholder{
+    font-size: 13px;
+}
+#input2{
+    width: 300px;
+    height: 100px;
+    background-color: #3b1771;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+#input2::placeholder{
+    font-size: 13px;
+}
+label{
+    font-size: 12px;
+}
+#contactsubmit{
+    background-color: #3b1771;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+}
+#contactsubmit:hover{
+    font-size: 16px;
+    border: 1px solid #271c7c;
+}
+#smallcards{
+    background-color: #1d0049;
+    border: none;
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width : 900px) {
+    #contactcont{
+        display: grid;
+    }
+    #contacthero{
+        height: 100%;
+    }
+    #contactcard{
+        margin-bottom: 30px;
+        margin-top: -70px;
+    }
+}

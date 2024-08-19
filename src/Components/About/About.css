@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#cont{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/public/images/bck1.jpg);
+    margin-top: -40px;
+    content-visibility: auto;
+    
+}
+#abouttext{
+    color: white;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+#abouttext h1{
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right ,#8e76d6 , #88c7f3 20% );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#abouttext p{
+    font-weight: 400;
+    font-size: 15px;
+    padding-right: 150px;
+}
+#aboutimages{
+    margin-top: 150px;
+    margin-right: 190px;
+    margin-bottom: 0px;
+    display: grid;
+    position: relative;
+    animation: animate 2s alternate infinite;
+}
+@keyframes animate{
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 60px;
+    }
+}
+#shadow{
+    height: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: shrink 2s alternate infinite;
+    position: absolute;
+    bottom: -90px;
+    right: 49px;
+}
+@keyframes shrink{
+    from{
+        width: 200px;
+        right: -50px;
+        bottom: -30px;
+    }
+    to{
+        width: 100px;
+    }
+} 
+#about{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+    #about{
+        display: grid;
+    }
+    #abouttext{
+        margin-left: 40px;
+    }
+    #abouttext p{
+        padding-right: 20px;
+    }
+    #cont{
+        height: 100%;
+    }
+    #aboutimages{
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+

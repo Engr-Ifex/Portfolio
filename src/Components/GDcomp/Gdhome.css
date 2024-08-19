@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#gdhero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/public/images/GRAPH.jpg);
+    background-size: cover;
+    background-position: center;
+    content-visibility: auto;
+}
+#gdcont{
+    display: flex;
+    padding: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#gdconttext{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#gdconttext h1{
+    font-weight: 900;
+    font-size: 70px;
+    background: linear-gradient(to right, #88c7f3 40%, #8e76d6 60% );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+#gdconttext p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+#gdsecond{
+    height: 900px;
+    background-image: url(/public/images/bck4.jpg);
+    background-size: cover;
+    background-position: center;
+    /* margin-top: -24px; */
+    color: white;
+    content-visibility: auto;
+}
+#gdsecond p{
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+#gdsecond h1{
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right ,#8e76d6 40% , #88c7f3 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#row{
+    margin: 20px 20px 20px 20px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+}
+#marg{
+    padding-bottom: 20px;
+
+}
+#gdski{
+    text-align: center;
+    padding-top: 40px;
+}
+#gdskim{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#gdskimage{
+    margin: 20px;
+}
+#viewanchor{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: linear-gradient( #88c7f3 , #8e76d6 );
+    color: white;
+    padding: 10px                                                   ;
+    margin-left: 20px;
+}
+#viewanchor:hover{
+    box-shadow: 0 0 2px #88c7f3, 0 0 2px #88c7f3, 0 0 2px #88c7f3, 0 0 2px #8e76d6, 0 0 2px #8e76d6;
+}
+
+
+
+
+
+@media (max-width : 900px) {
+    #row {
+        display: grid;
+        margin: 0 auto;
+        justify-content: center;
+        grid-template-columns: 250px;
+    }
+    #gdsecond{
+        height: 100%;
+    }
+
+    #gdworks{
+        text-align: center;
+    }
+    #marg{
+        padding-bottom: 20px;
+
+    }
+}
