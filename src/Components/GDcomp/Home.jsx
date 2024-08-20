@@ -5,6 +5,7 @@ import Branchnav from '../WDcomp/Branchnav';
 import { GDdata1, Skills } from './GDdata'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ResbranchNavbar from '../WDcomp/Resbranchnav'
+import { Link } from 'react-router-dom'
 
 
 function GdHome() {
@@ -44,8 +45,8 @@ function GdHome() {
               
 
             </div>
-      
-          <a href="./Viewmore" target='_blank' id='viewanchor' >View more</a>
+
+            <Link to='/Viewmore' target='_blank' id='viewanchor' >More</Link>
           <h2 id='gdski'>Skills</h2>
             <div id='gdskim'>
               {Skills.map((skill, index)=> (
