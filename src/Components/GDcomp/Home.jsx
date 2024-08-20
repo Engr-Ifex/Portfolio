@@ -46,7 +46,7 @@ function GdHome() {
 
             </div>
 
-            <Link to='/Viewmore' target='_blank' id='viewanchor' >More</Link>
+            <Link to='/Viewmore' target='_blank' id='viewanchor' >View More</Link>
           <h2 id='gdski'>Skills</h2>
             <div id='gdskim'>
               {Skills.map((skill, index)=> (
